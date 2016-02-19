@@ -1,0 +1,8 @@
+beautifulsoup4==4.4.1
+lxml==3.5.0
+moarcve==0.0.1
+pytz==2015.7
+requests==2.9.1
+requests-cache==0.4.10
+SQLAlchemy==1.0.12
+wheel==0.29.0

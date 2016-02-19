@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import logging
+logging.basicConfig()
+
+from moarcve.conf import Configuration
+from moarcve.core import Core
+
+if __name__ == '__main__':
+    from moarcve.database import session
+    conf = Configuration()
+    session.init(conf)
+    logging.basicConfig()
+    core = Core()
+    core.run()
